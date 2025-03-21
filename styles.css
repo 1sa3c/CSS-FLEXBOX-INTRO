@@ -4,18 +4,24 @@ body{
     box-sizing: border-box;
     /*Feel free to change the values of the following
     properties to your liking!*/
-    background-color:antiquewhite;
-    font-family: cursive, sans-serif;
-    color: purple;
+    background-color:rgb(186, 224, 115);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    color: rgb(9, 109, 42);
 }
 
 /*References the div with the class attribute of "container"*/
 .container{
     /*Declares that the element and its children(the elements inside it) can be styled with flexbox*/
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+gap: 10px;
 }
 
-
+.container div{
+    background-color: rgb(35, 95, 11);
+    padding: 20px;
+    border-radius: 8%;
 img{
     /*Sets image sizing to be a bit more uniform*/
     min-width: 25vw;
